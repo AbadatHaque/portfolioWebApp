@@ -1,0 +1,27 @@
+body{
+    height: 100dvh;
+}
+.containar{
+    display: flex;
+    font-size: 22px;
+}
+.containar .lhs{
+    min-width: 50%;
+   
+}
+.containar .lhs .socialMediaButtons{
+    display: flex;
+    justify-content:left;
+    gap:2rem
+}
+.containar .lhs .socialMediaButtons button{
+    padding: 0px;
+    border: none;
+}
+.containar .lhs .socialMediaButtons button svg{
+    font-size: 2rem;
+
+    /* width: 100px;
+    mix-blend-mode: multiply; */
+    
+}
