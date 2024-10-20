@@ -2,15 +2,15 @@
 import './App.css'
 import Navber from './pages/navber'
 import Home from './pages/home'
+import About from './pages/about'
 
 function App() {
 
   return (
     <>
-    <div style={{position:"relative"}}>
      <Navber/>
      <Home/>
-     </div>
+     <About/>
     </>
   )
 }

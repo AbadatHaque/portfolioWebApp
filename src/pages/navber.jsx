@@ -1,5 +1,6 @@
 import '../css/navbar.css'
-const data = ['Home','Skill','Project','Contain']
+import { HashLink } from 'react-router-hash-link';
+const data = ['Home','About','Skill','Project','Contain']
 const Navber = () => {
 
     return (
@@ -8,7 +9,12 @@ const Navber = () => {
             <ul>
                 {
                     data.map((item,ind)=>(
-                        <li key={ind}>{item}</li>
+                        <li id={item} key={ind}>
+                             <HashLink smooth to={`/#section-${item}`}>
+                             {item}
+                             </HashLink></li>
+                        
+
                     ))
                 }
             </ul>
