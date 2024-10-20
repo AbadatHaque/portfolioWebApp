@@ -1,6 +1,10 @@
 .navbar{
     display: flex;
     justify-content: space-between;
+    height: 3rem;
+    align-items: center;
+    background-color: #6967dc70;
+    padding: 0px 1rem   ;
 }
 .navbar ul{
     display: flex;
